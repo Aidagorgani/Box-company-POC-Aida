@@ -3465,9 +3465,9 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
-  color: #2F2E41;
+  color: #FF7800;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -3477,9 +3477,9 @@ textarea.form-control-lg {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
-  border-radius: 0.2rem;
+  border-radius: 0.8rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -17431,9 +17431,9 @@ html {
   scroll-padding-top: 6.3125rem;
 }
 
-main {
+/* main {
   background-image: url("../img/gallery/bg.png");
-}
+} */
 
 body {
   -webkit-font-smoothing: antialiased;

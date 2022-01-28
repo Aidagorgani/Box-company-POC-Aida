@@ -8138,6 +8138,7 @@ fieldset:disabled .btn {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
   align-items: center !important;
+  background-color: #CCF3F2;
 }
 
 .align-items-baseline {
