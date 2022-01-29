@@ -1,0 +1,70 @@
+
+@media (min-width: 992px){
+  .col-6 {
+    max-width:100%;
+  }
+  .col-lg {
+    flex:20%;
+  }
+  .col-xxl-7 {
+    width:50%;
+    padding-right:5rem;
+  }
+  .col-md-75 {
+    padding: 5rem;
+    padding-right:0;
+    width:50%;
+  }
+
+}
+
+.col-lg {
+  width:100%;
+}
+
+.py {
+  padding-top: 5rem;
+}
+
+.pt-7 {
+  padding-top: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+
+
+/* Hero */
+
+
+
+
+/* Header */
+
+.btn {
+  padding: 0.8rem 1.4rem;
+  font-weight:600;
+}
+
+.btn-primary {
+  background-color: #FF7800;
+  border-color: #FF7800;
+  border-radius: 1rem;
+}
+
+
+/* footer */
+
+.bg-1000 {
+  background-color: #32388D !important;
+  margin-top: 5rem;
+}
+
+body {
+  background-color: #EDF6F4;
+  background-image:none;
+}
