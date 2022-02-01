@@ -113,5 +113,58 @@ h5 {
 }
 
 .card-body-company {
-  flex:3;
+  flex:4;
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.img-fluid {
+  width:80%;
+}
+
+.d-flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.ms-3 {
+  margin-left:0 !important;
+}
+
+.svg-inline--fa.fa-w-16, .svg-inline--fa.fa-w-14, .svg-inline--fa.fa-w-10, .svg-inline--fa.fa-w-18 {
+  margin-right: 10px;
+}
+
+.card-company-hero {
+  padding-bottom: 2.5rem !important;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.fa-instagram:hover {
+    color: #C837AB;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;
+}
+
+.fa-android:hover {
+    color: #A4C639;
+}
+
+.fa-apple:hover {
+    color: #F2F2F2;
+}
+
+.company-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
 }
