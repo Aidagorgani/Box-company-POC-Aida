@@ -160,11 +160,59 @@ h5 {
 }
 
 .fa-apple:hover {
-    color: #F2F2F2;
+    color: #C4C4C4;
 }
 
 .company-title {
   font-size: 1.5rem;
   margin-bottom: 0;
   font-weight: 700;
+  color: #474747;
+}
+
+.flex-review {
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-between !important;
+}
+
+.justify-content-between {
+  display:flex;
+}
+
+.btn-secondary {
+  background-color: #EDF6F4;
+  border-radius: 1rem;
+  color:#FF7800;
+  font-weight: 700;
+  border:2px solid #FF7800;
+}
+
+.btn-secondary:hover {
+  border:2px solid #E56C01;
+  color:#E56C01;
+  background-color: #EDF6F4;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color:#474747;
+}
+
+h5{
+  font-weight:600;
+}
+
+@media (max-width: 480px) {
+  .card-company-hero {
+    flex-flow: column;
+  }
+
+  .card-body-company{
+    padding: 1rem;
+  }
+
+  .mb-3 {
+      margin-bottom: 0 !important;
+  }
+
 }
