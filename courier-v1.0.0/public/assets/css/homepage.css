@@ -1,8 +1,4 @@
 
-
-
-
-
 /* Header */
 
 .btn {
@@ -21,11 +17,12 @@
 /* Hero section */
 @media (max-width: 480px) {
   .align-items-center {
-    margin:2%;
+    margin:5rem 1rem;
   }
 
   .text-end {
     margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .py-8 {
@@ -37,25 +34,38 @@
     text-align: left;
   }
 
+  .order-0 {
+    order: 1 !important;
+  }
+
 }
 
 
-/* @media (max-width:768px) {
-  .hero-image {
-    margin:2%;
-  }
+@media only screen and (max-width: 992px) and (min-width: 480px)  {
 
   .py-8 {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
-} */
+  .col-md-5 {
+    width:100%;
+    margin-bottom: 5rem;
+  }
+
+  .text-end {
+    text-align: center !important;
+  }
+
+  .hero-image {
+    margin-top: 3rem;
+  }
+}
 
 
-
-
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .col-6 {
     max-width:100%;
   }
@@ -113,6 +123,22 @@ img {
   background-color: white !important;
 }
 
+.tagline {
+  text-align: center;
+  color:#32388D;
+  margin-top: 15rem;
+  margin-bottom: 20rem !important;
+}
+
+.subtitle {
+  font-weight: 400;
+  color: #474747;
+  margin-bottom: 1rem;
+}
+
+.py-xxl-10 {
+  padding-bottom: 5rem !important;
+}
 
 
 
